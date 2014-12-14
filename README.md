@@ -4,7 +4,9 @@ CryptoGuard
 A PHP library that gives a simple interface for encrypting and decrypting strings
 
 [![Build Status](https://travis-ci.org/CoreProc/crypto-guard.svg?branch=master)](https://travis-ci.org/CoreProc/crypto-guard)
-[![License](https://poser.pugx.org/coreproc/crypto-guard/license.svg)](https://packagist.org/packages/coreproc/crypt-guard)
+[![License](https://poser.pugx.org/coreproc/crypto-guard/license.svg)](https://packagist.org/packages/coreproc/crypto-guard)
+[![Latest Stable Version](https://poser.pugx.org/coreproc/crypto-guard/v/stable.svg)](https://packagist.org/packages/coreproc/crypto-guard)
+
 ## Quick start
 
 ### Required setup
