@@ -29,23 +29,25 @@ Once you've downloaded the composer.phar file, continue with your installation b
 
 ### Basic Usage
 
-    <?php
-    
-    require 'vendor/autoload.php';
-    
-    use Coreproc\CryptoGuard\CryptoGuard;
-    
-    // This passphrase should be consistent and will be used as your key to encrypt/decrypt
-    // your string
-    $passphrase = 'whatever-you-want';
-    
-    // Instantiate the CryptoGuard class
-    $cryptoGuard = new CryptoGuard($passphrase);
-    
-    $stringToEncrypt = 'test';
-    
-    // This will spit out the encrypted text
-    $encryptedText = $cryptoGuard->encrypt($stringToEncrypt);
-    
-    // This should give you back the string you encrypted
-    echo $cryptoGuard->decrypt($encryptedText);
+```php
+<?php
+
+require 'vendor/autoload.php';
+
+use Coreproc\CryptoGuard\CryptoGuard;
+
+// This passphrase should be consistent and will be used as your key to encrypt/decrypt
+// your string
+$passphrase = 'whatever-you-want';
+
+// Instantiate the CryptoGuard class
+$cryptoGuard = new CryptoGuard($passphrase);
+
+$stringToEncrypt = 'test';
+
+// This will spit out the encrypted text
+$encryptedText = $cryptoGuard->encrypt($stringToEncrypt);
+
+// This should give you back the string you encrypted
+echo $cryptoGuard->decrypt($encryptedText);
+```
