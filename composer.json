@@ -5,6 +5,7 @@
     "encryption",
     "decryption"
   ],
+  "license": "MIT",
   "homepage": "https://github.com/CoreProc/crypto-guard",
   "authors": [
     {
