@@ -16,6 +16,9 @@
     "php": ">=5.4.0"
   },
   "autoload": {
+    "files": [
+      "src/Support/helpers.php"
+    ],
     "psr-4": {
       "Coreproc\\CryptoGuard\\": "src"
     }
