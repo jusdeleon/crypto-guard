@@ -6,6 +6,7 @@ A PHP library that gives a simple interface for encrypting and decrypting string
 [![Build Status](https://travis-ci.org/CoreProc/crypto-guard.svg?branch=master)](https://travis-ci.org/CoreProc/crypto-guard)
 [![License](https://poser.pugx.org/coreproc/crypto-guard/license.svg)](https://packagist.org/packages/coreproc/crypto-guard)
 [![Latest Stable Version](https://poser.pugx.org/coreproc/crypto-guard/v/stable.svg)](https://packagist.org/packages/coreproc/crypto-guard)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/CoreProc/crypto-guard/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/CoreProc/crypto-guard/?branch=master)
 
 ## Quick start
 
