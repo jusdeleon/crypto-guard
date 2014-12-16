@@ -5,6 +5,7 @@ A PHP library that gives a simple interface for encrypting and decrypting string
 
 [![Author](http://img.shields.io/badge/author-@chrisbjr-blue.svg?style=flat-square)](https://twitter.com/chrisbjr)
 [![Build Status](https://img.shields.io/travis/CoreProc/crypto-guard/master.svg?style=flat-square)](https://travis-ci.org/CoreProc/crypto-guard)
+[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/CoreProc/crypto-guard.svg?style=flat-square)](https://scrutinizer-ci.com/g/CoreProc/crypto-guard/?branch=master)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/CoreProc/crypto-guard.svg?style=flat-square)](https://scrutinizer-ci.com/g/CoreProc/crypto-guard/?branch=master)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
