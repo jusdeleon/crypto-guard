@@ -3,10 +3,10 @@ CryptoGuard
 
 A PHP library that gives a simple interface for encrypting and decrypting strings
 
-[![Build Status](https://travis-ci.org/CoreProc/crypto-guard.svg?branch=master)](https://travis-ci.org/CoreProc/crypto-guard)
-[![License](https://poser.pugx.org/coreproc/crypto-guard/license.svg)](https://packagist.org/packages/coreproc/crypto-guard)
-[![Latest Stable Version](https://poser.pugx.org/coreproc/crypto-guard/v/stable.svg)](https://packagist.org/packages/coreproc/crypto-guard)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/CoreProc/crypto-guard/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/CoreProc/crypto-guard/?branch=master)
+[![Author](http://img.shields.io/badge/author-@chrisbjr-blue.svg?style=flat-square)](https://twitter.com/chrisbjr)
+[![Build Status](https://img.shields.io/travis/CoreProc/crypto-guard/master.svg?style=flat-square)](https://travis-ci.org/CoreProc/crypto-guard)
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/CoreProc/crypto-guard.svg?style=flat-square)](https://scrutinizer-ci.com/g/CoreProc/crypto-guard/?branch=master)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
 ## Quick start
 
