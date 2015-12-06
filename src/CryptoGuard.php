@@ -62,7 +62,7 @@ class CryptoGuard
         $originalSignature = base64_decode($dataDecoded['sig']);
 
         // Attempt to verify signature
-        if ($this->hmacVerify($originalSignature, $this->iv) == false) {
+        if ($this->hmacVerify($originalSignature . $ciphertext, $this->iv) == false) {
             throw new InvalidPayloadException();
         }
 
@@ -96,7 +96,7 @@ class CryptoGuard
 
     private function hmacSign($ciphertext, $key)
     {
-        return hash_hmac('sha256', $ciphertext, $key) . $ciphertext;
+        return hash_hmac('sha256', $ciphertext, $key);
     }
 
     /**
